@@ -19,7 +19,7 @@ class PersonalSearch extends Personal
     {
         return [
             [['idPersona'], 'integer'],
-            [['nombre_Persona', 'imagen'], 'safe'],
+            [['nombre_Persona'], 'safe'],
         ];
     }
 
@@ -59,8 +59,7 @@ class PersonalSearch extends Personal
             'idPersona' => $this->idPersona,
         ]);
 
-        $query->andFilterWhere(['like', 'nombre_Persona', $this->nombre_Persona])
-            ->andFilterWhere(['like', 'imagen', $this->imagen]);
+        $query->andFilterWhere(['like', 'nombre_Persona', $this->nombre_Persona]);
 
         return $dataProvider;
     }
