@@ -27,7 +27,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => 'Proyecto Web',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -39,13 +39,16 @@ AppAsset::register($this);
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'Tareas', 'url' => ['/tareas/index']],
             ['label' => 'Personal', 'url' => ['/personal/index']],
-            Yii::$app->user->isGuest ?
+            ['label' => 'Tipo', 'url' => ['/tipo/index']],
+            ['label' => 'Tarea_Tipo', 'url' => ['/tarea-tipo/index']],
+            ['label' => 'Tarea_Personal', 'url' => ['/tarea-personal/index']],
+            /*Yii::$app->user->isGuest ?
                 ['label' => 'Login', 'url' => ['/site/login']] :
                 [
                     'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
                     'url' => ['/site/logout'],
                     'linkOptions' => ['data-method' => 'post']
-                ],
+                ],*/
         ],
     ]);
     NavBar::end();
@@ -61,7 +64,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-left">&copy; Proyecto Web <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>

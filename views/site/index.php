@@ -28,12 +28,6 @@ $this->title = 'My Yii Application';
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Clima de Tepic</h2>
-
-                <div id="TT_vyNwbhYhYpnjK1DK2fwDzjzjDKnKMnM2Ltkt1syoKEzo3Im53"><a href="http://www.tutiempo.net">Tu tiempo</a></div>
-                <script type="text/javascript" src="http://www.tutiempo.net/widget/eltiempo_vyNwbhYhYpnjK1DK2fwDzjzjDKnKMnM2Ltkt1syoKEzo3Im53"></script>
-            </div>
-            <div class="col-lg-4">
                 <h2>Heading</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -42,6 +36,12 @@ $this->title = 'My Yii Application';
                     fugiat nulla pariatur.</p>
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Clima de Tepic</h2>
+
+                <div id="TT_vyNwbhYhYpnjK1DK2fwDzjzjDKnKMnM2Ltkt1syoKEzo3Im53"><a href="http://www.tutiempo.net">Tu tiempo</a></div>
+                <script type="text/javascript" src="http://www.tutiempo.net/widget/eltiempo_vyNwbhYhYpnjK1DK2fwDzjzjDKnKMnM2Ltkt1syoKEzo3Im53"></script>
             </div>
         </div>
 
