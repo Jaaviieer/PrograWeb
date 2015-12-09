@@ -30,7 +30,7 @@ $this->title = 'My Yii Application';
             <div class="col-lg-4">
                 <h2>Clima de Tepic</h2>
 
-                <div id="TT_vyNwbhYhYpnjK1DK2fwDzjzjDKnKMnM2Ltkt1syoKEzo3Im53"></div>
+                <div id="TT_vyNwbhYhYpnjK1DK2fwDzjzjDKnKMnM2Ltkt1syoKEzo3Im53"><a href="http://www.tutiempo.net">Tu tiempo</a></div>
                 <script type="text/javascript" src="http://www.tutiempo.net/widget/eltiempo_vyNwbhYhYpnjK1DK2fwDzjzjDKnKMnM2Ltkt1syoKEzo3Im53"></script>
             </div>
             <div class="col-lg-4">
