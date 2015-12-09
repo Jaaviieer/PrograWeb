@@ -42,13 +42,6 @@ AppAsset::register($this);
             ['label' => 'Tipo', 'url' => ['/tipo/index']],
             ['label' => 'Tarea_Tipo', 'url' => ['/tarea-tipo/index']],
             ['label' => 'Tarea_Personal', 'url' => ['/tarea-personal/index']],
-            /*Yii::$app->user->isGuest ?
-                ['label' => 'Login', 'url' => ['/site/login']] :
-                [
-                    'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-                    'url' => ['/site/logout'],
-                    'linkOptions' => ['data-method' => 'post']
-                ],*/
         ],
     ]);
     NavBar::end();
